@@ -74,11 +74,10 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
 if ( str1.length === str2.lenght ) {
   return true;
-  }
-  else {
-  return false;
-  }
-
+}
+else {
+  return false
+}
 }
 
 function menosQueNoventa(num) {
@@ -248,12 +247,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
 if (letra.length > 1){
-  return 'Dato incorrecto, debe ingresar solo un (1) caracter'
+  return 'Dato incorrecto'
 }
 if (letra === 'a' || letra === 'e'|| letra === 'i'|| letra === 'o'|| letra === 'u') {
-  return 'Es una vocal'
+  return 'Es vocal'
 }
-return 'Dato incorrecto, no es una vocal'
+return 'Dato incorrecto'
 }
 
 
