@@ -1,0 +1,38 @@
+El "FOR" se trata de un bucle.
+Que significa que sea un bucle? que lo que yo le diga se va a repetir infinitas veces
+o hasta que se cumpla el freno.
+se usa de la siguiente manera:
+
+for (let i=0    ; i<10    ;i++) {
+  //codigo o instruccion a ejecutar
+}
+
+Qué le estoy diciendo al programa con ese "for"?
+Entre los parentesis, al "for" en la primer parte, le estoy diciendo esta es tu variable,
+en la segunda parte le digo que mientras eso sea "verdad" que siga realizando la
+instruccion que le dí. Qué pasa si no le pongo freno? Que va a ejecutarse infinitamente,
+y puede trabar todo el programa o incluso provocar daños en el procesador.
+Y por último con qué "velocidad" o paso, quiero que eso suceda. En este caso la variable
+va a ir creciendo de uno a uno (1, 2, 3, etc)
+
+Los operadores lógicos
+Para empezar a entender como funcionan debemos sentar ciertas bases.
+Estos operadores analizan o comparan dos expresiones, o sea son necesarias ambas
+para analizarlas.
+
+&&
+
+Esto se traduce "AND" o "Y". Lo usaríamos cuando queremos comprobar que ambas expresiones
+son verdaderas, si esto se cumple el resultado es el booleano "TRUE" si una de las dos
+es falsa arroja "FALSE"
+
+||
+
+Esto se traduce como "OR", en español "O". Se usa cuando necesitamos comprobar que al menos
+una de las expresiones es verdadera, si lo es el resultado será "TRUE". En el único caso
+donde el resultado es "FALSE" es cuando ambas expresiones son falsas.
+
+!
+
+Este símbolo en programación no denota una exclamación sino que significa "NOT" o "NO".
+Se usa para NEGAR cualquier expresion por ejemplo !1=1 --> arroja "FALSE"
