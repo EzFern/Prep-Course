@@ -163,7 +163,7 @@ if (numero === 0 || numero === 1){
 if (numero === 2){
   return true;
 }
-for (var x = 2, numero > x, x++){
+for (var x = 2; numero > x; x++){
   if (numero % x === 0) {
     return false;
   }
