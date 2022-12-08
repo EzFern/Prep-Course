@@ -17,7 +17,7 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  array.length;
+  return array.length;
 }
 
 
@@ -28,7 +28,7 @@ function incrementarPorUno(array) {
   // Tu código:
 
   for (var i = 0; i < array.length; i++) {
-    array[i] = array + 1;
+    array[i] = array[i] + 1;
   }
   return array;
 
@@ -123,7 +123,7 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  
+
 }
 
 
