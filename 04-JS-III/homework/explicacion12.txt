@@ -1,0 +1,26 @@
+Array:
+Un Array es una lista de elementos que tienen un orden.
+Para crear un array se usan los corchetes []
+Se podría imaginar como una biblioteca, donde cada libro (elemento) tiene su lugar y número que indica el orden correspondiente.
+Un array puede tener guardado cualquier tipo de elemento, desde numeros hasta strings y booleanos.
+Se ordenan según su posición comenzando a contar desde el 0.
+Por ejemplo:
+
+array = ["a", "b", "c", 1, 2, 3, true]
+          0    1    2   3  4  5   6
+
+En este ejemplo el array tiene, en su posición inicial que es el 0, una string ("a").
+En la posicion 3 tiene un número, (1).
+En la última posición tiene un booleano (true)
+
+Se lo puede "recorrer", es modificable, y se puede trabajar con cada elemento al llamarlo de la siguiente forma
+array[0] = a
+array[1] = b
+array[3] = 1
+array[4] = 2
+array[6] = true
+
+Existen funciones que interactuan con el array, por ejemplo:
+array.push() => inserta lo que está en el parentesis adentro del array y siempre lo deja en el ultimo lugar
+array.pop() => elimina lo que está en el último lugar del arrayTabla
+array.length => devuelve el valor numérico de la cantidad de elementos que tiene el array (en este ejemplo, 7)
